@@ -1,0 +1,215 @@
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+#menusuperiorderecha  nav ul{
+    display: flex; /*poner items de menu al lado uno del otro*/
+    font-size: 10px;
+    justify-content: right;
+    background-color: black;
+}
+
+#menusuperiorderecha  nav ul img{
+    padding-right: 1300px;
+}
+
+#menusuperiorderecha nav ul li{
+    list-style: none; /*Quita los puntitos*/
+    padding: 15px; /*Relleno a los li*/
+    font-size: medium;
+
+}
+
+#menusuperiorderecha nav ul li a{
+    color: rgb(107, 107, 107);/*Color de los enlaces del menu*/
+    text-decoration: none;
+}
+
+#menusuperiorderecha{
+    background-color: black;
+}
+
+#menusuperiorderecha img{
+    width: 150px;
+}
+
+body{
+    background-color: black;
+    font-family: Arial;
+}
+
+#fondonetflix{
+    width: 900px;
+}
+
+#fondonetflix img{
+    width: 1500px;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: column;   
+}
+
+#logoprimervideo img{ 
+    width: 550px;
+}
+
+#logohbomax img{ 
+    width: 450px;
+}
+
+#logodisneyplus img{ 
+    width: 550px;
+}
+
+#logosplataforma{ 
+    display: flex;
+    justify-content: center;
+}
+
+#logosplataforma{ 
+    justify-content: space-between;
+}
+
+#logosplataforma img{ 
+    padding: 15px;
+}
+
+#Terror img{
+    width: 300px;
+}
+
+#Terror{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Comedia img{
+    width: 300px;
+}
+
+#Comedia{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Aventura img{
+    width: 300px;
+}
+
+#Aventura{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Arriba{
+    background-image: url(../img/Netflix-Background-prueba-1.jpg);
+    opacity: 50%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+nav ul{
+    background-color: #000000;
+}
+
+nav ul li{
+    list-style: none; /*Quita los puntitos*/
+    padding: 15px; /*Relleno a los li*/
+    font-size: medium;
+
+}
+
+nav ul li a{
+    color: rgb(107, 107, 107);/*Color de los enlaces del menu*/
+    padding: 15px;
+    text-decoration: none;
+}
+
+body{
+    background-color: #000000;
+    font-family: Arial;
+}
+
+table, th, td{
+    border: 1px solid;
+}
+
+table, th, td, h1{
+    color: rgba(255, 255, 255, 0.774);
+}
+
+div{
+    color: white;
+}
+
+#menusuperiorderecha  nav ul img{
+    padding-right: 1100px;
+    width: 150px;
+}
+
+#menusuperiorderecha{
+    background-color: black;
+}
+
+body{
+    font-family: Arial;
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+}
+
+h1{
+    color: rgb(1, 112, 182); 
+}
+
+form{
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #252424;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+input{
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+button{
+    background-color: rgb(1, 112, 182);
+    color: #000000;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    max-width: 300px;
+    width: 100%;
+}
+
+#Username,#Password{
+    width: 100%;
+}
+
+.lado{
+    display: flex;
+}
+
+a{
+    padding-left: 40px;
+    text-decoration: none;
+    color: rgb(1, 112, 182);
+}
+
+.titulo{
+    justify-content:  center;
+}
